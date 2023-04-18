@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*,html{
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family:'Lora', serif;
+    width: 100%;
+    min-height: 100%;
+  
+}
+a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #E2D1F9;
+    position: relative;
+    display: flex;
+}
+.vertikalni-izbornik{
+    width: 25%;
+    height: 100%;
+    background-color: #317773 ;
+    position: relative;
+}
+.text{
+    width: 97%;
+    height: 96%;
+    background-color: #317773;
+    margin: 20px;
+    color: #E2D1F9;
+}
+.sadrzaj{
+    width: 75%;
+    height: inherit;
+}
+.socials{
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.naslov{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    font-family: 'Anton' , sans-serif;
+}
+#izbori{
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+
+}
+.izbori{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    line-height: 8vh;
+    
+}
+.izbori > h2{
+    border-bottom: #E2D1F9 1px solid;
+    margin: 5px;
+    color: #E2D1F9;
+    text-transform: uppercase;
+}
+#naslov{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 5vh;
+    padding: 10px;
+}
+#text{
+    height:50%;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 22px;
+}
+#slike{
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.slika-1 , .slika-2 , .slika-3{
+    width: 32%;
+    visibility: hidden;
+}
+
+
